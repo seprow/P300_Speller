@@ -41,20 +41,6 @@ The **P300 Speller** uses a **6x6 matrix** of characters, where the user focuses
 
 ---
 
-# Dataset
+# 🎯 Goal of the Project
 
-- Download the dataset from:  
-  [BCI Competition III - Dataset II](https://www.bbci.de/competition/download/competition_iii/albany/BCI_Comp_III_Wads_2004.zip)
-
----
-
-### Data Collection:
-- **Subjects**: Two participants, five sessions each.
-- **Task**: Focus on one out of 36 different characters displayed on the screen.
-- **Matrix Display**:  
-  - 2.5 seconds of blank matrix, followed by random intensifications of rows and columns (100ms each with a 75ms blank period after).  
-  - Repeated 15 times per character (180 total intensifications per epoch).
-- **Data**:  
-  - Bandpass filtered (0.1-60Hz) and digitized at **240Hz** (sampled 240 times per second).  
-  - Recorded using **64 EEG channels**.  
-  - 4 Matlab *.mat files: one training (85 characters) and one test (100 characters) for each of the two subjects, A and B.
+The goal of this project is to utilize **deep learning** techniques to enhance the accuracy and efficiency of the P300 Speller system.
